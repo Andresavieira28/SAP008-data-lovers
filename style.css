@@ -361,16 +361,16 @@ button:hover {
         margin: 5%;
         width: 100%;
         box-sizing: border-box;
-        padding: 0px;
+        padding-bottom: 5x;
         margin: auto;
     }
     .menu{
         display: flex;
         flex-direction: row-reverse;
         background-color: #500909;
-        max-width: 100%;
-        padding: 50px;
-        height: 0px;
+        width: 100%;
+        padding: 0px 0px 20px 0px;
+        height: 30px;
     }
     .btnMenu{
         display: flex;
@@ -379,6 +379,7 @@ button:hover {
     }
     .imgMenu img:hover{
         transform: scale(0.9);
+        height: 20px;
     }
     .mainback{
         background-image: url(imagens/backcastelo1440.png);
