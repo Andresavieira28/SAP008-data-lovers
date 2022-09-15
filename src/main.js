@@ -7,12 +7,13 @@ let listCharacterHouseFilter;
 let calcDisplay = document.getElementById('cal');
 const fieldSearch = document.getElementById('buscar');
 let btnTop = document.getElementById('btn-top')
+let btnRefresh = document.querySelector('#refresh')
 //function criar card characters
 function createCard(character) {
   return `<section class="card">
   <br><strong>Nome: </strong>${character.name}
   </br><strong>Livro: </strong>${character.books_featured_in}
-  </br><strong>ESpécie: </strong>${character.species}
+  </br><strong>Espécie: </strong>${character.species}
   </br><strong>Casa: </strong>${character.house}
   </br><strong>Gênero: </strong>${character.gender}</br>
   </section>`
@@ -70,3 +71,7 @@ function scrollFunction() {
     btnTop.style.display = "none";
   }
 }
+btnRefresh.addEventListener('click',
+function refresh(){
+  window.location.reload();
+})
