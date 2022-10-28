@@ -14,7 +14,7 @@ const HarryPotterData = [
   name: "Luna",
   house: "Hufflepuff"
 }]
-
+//calculo
 describe('Teste calculateCharactersPercentage', () => {
   it('is a function', () => {
     expect(typeof calculateCharactersPercentage).toBe('function');
@@ -24,7 +24,7 @@ describe('Teste calculateCharactersPercentage', () => {
     expect(calculateCharactersPercentage(5,1)).toBe(20);
   });
 });
-
+//filtro ver todos
 describe('Teste FilterHouse', () => {
   it('is a function', () => {
     expect(typeof filterHouse).toBe('function');
@@ -37,7 +37,7 @@ describe('Teste FilterHouse', () => {
     }]);
   });
 });
-
+// filtro por casa
 describe('Teste countCharactersHogwarts', () => {
   it('is a function', () => {
     expect(typeof countCharactersHogwarts).toBe('function');
@@ -47,7 +47,7 @@ describe('Teste countCharactersHogwarts', () => {
     expect(countCharactersHogwarts(HarryPotterData)).toBe(3);
   });  
 })
-
+// ordenamento
 describe('Teste selectNameAz', () => {
   it('is a function', () => {
     expect(typeof selectNameAz).toBe('function');
@@ -99,7 +99,7 @@ describe('Teste selectNameZa', () => {
     expect(listaOrdenadaZa[0].name).toBe('Rony');
   });
 });
-
+//campo de busca
 describe('Teste filterFind', () => {
   it('is a function', () => {
     expect(typeof filterFind).toBe('function');

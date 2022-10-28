@@ -1,13 +1,13 @@
-//filtro de casas
+//filtro ver todos
 export function filterHouse(house, characters) {
   return characters.filter((user) => user.house === house);
 }
-//calculo agregado
+//filtro por casas
 export function countCharactersHogwarts(characters) {
   const houses = ["Gryffindor", "Ravenclaw", "Slytherin", "Hufflepuff" ]
   return characters.filter((user) => houses.includes(user.house) ).length
 }
-
+//calculo agregado
 export function calculateCharactersPercentage(total, fraction){
  return parseInt((fraction / total) * 100)
 }

@@ -64,7 +64,7 @@
     flex-direction: column;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.322);
-    color: #f1b3156e;
+    color: #f1b315c0;
     border-radius: 40%;
     text-align: center;
     font-size: 18px;
@@ -149,13 +149,12 @@ button:hover {
     background-color: #F1B415;
     text-align: center;
     color: black;
-    height: 70px;
-    padding: 0;
+    height: 40px;
+    padding: 1% 0% 0% 0%;
     width: 100%;
-    margin: 0;
-    font-size: 10px small;
+    margin: 1% 0% 0% 0%;
+    font-size: 20px small;
     font-weight: bold;
-    font-size: 20px;
 }
 .refresh{
     background-color:#500909;
@@ -191,7 +190,7 @@ button:hover {
 }
 .ulListBooks{
     background-color: #F1B415;
-    padding: 50px 300px 50px 300px;
+    padding: 0px 300px 50px 300px;
 }
 .cardBook{
     display: inline-flex;
@@ -244,12 +243,13 @@ button:hover {
     display: inline-block;
     flex-direction: column-reverse;
     background-color: #F1B415;
-    padding: 0px 150px 50px 150px;
+    padding: 0px 215px 50px 150px;
+    margin: auto;
 }
 .cardSpells{
-    margin: 15px;
+    margin: auto;
     font-size: 13px;
-    width: 1000px;
+    width: 90%;
     height: 150px;
     display: inline-block;
     flex-direction: row;
@@ -351,11 +351,35 @@ button:hover {
     background-color: #F1B415;
     padding-bottom: 5px;
 }
+.select-spells{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: #F1B415;
+    min-width: 266px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid #520909 ;
+    font-weight: 700;
+    font-size: small;
+    margin: 0% 1% 0% 0%;
+}
+.backSelectSpells{
+    display: flex;
+    justify-content: center;
+    background-color: #F1B415;
+    padding: 1% 0% 1% 0%;
+}
+.refreshSpeels{
+    background-color:#500909;
+    color: #F1B415;
+    margin: 2px;
+    width: 150px;
+    height: 30px;
+    border: 3px;
+    margin: 5px 0px 0px 0px;
+}
 @media only screen and (max-width: 950px){
-    *{
-        margin: 0;
-        padding: 0;
-    }
     .titulologo img{
         display: flex;
         margin: 5%;
@@ -448,7 +472,7 @@ button:hover {
         display: inline-block;
         flex-direction: column;
         background-color: #F1B415;
-        padding: 0px 20px 50px 20px;
+        padding: 0px 55px 50px 20px;
     }
     .cardSpells{
         margin: 15px;
@@ -505,16 +529,39 @@ button:hover {
         background-color:#500909;
         color: #F1B415;
         margin: 2px;
-        width: 150px;
+        width: 80px;
         height: 30px;
         border: 3px;
     }
+    .select-spells{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        background-color: #F1B415;
+        min-width: 180px;
+        height: 40px;
+        border-radius: 10px;
+        border: 2px solid #520909 ;
+        font-weight: 700;
+        font-size: small;
+        margin: 0% 1% 0% 0%;
+    }
+    .backSelectSpells{
+        display: flex;
+        justify-content: center;
+        background-color: #F1B415;
+        padding: 1% 0% 1% 0%;
+    }
+    .refreshSpeels{
+        background-color:#500909;
+        color: #F1B415;
+        margin: 2px;
+        width: 150px;
+        height: 30px;
+        border: 3px;
+        
 }
 @media only screen and (max-width: 600px){
-    *{
-        margin: 0;
-        padding: 0;
-    }
     .boxmodel{
         display: grid;
         background-color: rgba(0, 0, 0, 0.322);
@@ -522,9 +569,9 @@ button:hover {
         text-align: center;
         font-size: 20px;
         margin: auto;
-        height: 190px;
+        height: 210px;
         width: 250px;
-        padding: 30px 50px 30px 50px ;
+        padding: 5px 50px 30px 50px ;
         justify-content: center;
         align-items: center;
     }

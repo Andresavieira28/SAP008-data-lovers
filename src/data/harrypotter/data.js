@@ -15649,7 +15649,7 @@ export default {
     {
       "id": 47,
       "name": "Draught of Living Death",
-      "description": "A potion that places the taker in a state of sleep that makes them seem like they are dead. Seen/Mentioned: Severus Snape asked a question related to this potion to Harry in 1991; Horace Slughorn showed it to 6th years in 1996."
+      "description": "A potion that places the taker in a state of sleep that makes them seem like they are dead."
     },
     {
       "id": 48,
@@ -15674,7 +15674,7 @@ export default {
     {
       "id": 52,
       "name": "Elixir of Life",
-      "description": "A potion created from the Philosopher's Stone that extend the taker's life. Seen/Mentioned: Hermione Granger told Harry and Ron about this in 1991. Nicolas Flamel and his wife are known to be using it and they lived upto more that 600 years."
+      "description": "A potion created from the Philosopher's Stone that extend the taker's life."
     },
     {
       "id": 53,
@@ -15694,7 +15694,7 @@ export default {
     {
       "id": 56,
       "name": "Essence of Insanity",
-      "description": "A potion which presumably causes irrational behaviour, possibly inflicting the condition of insanity. Seen/Mentioned: Ronald Weasley and Hermione Granger thought Harry had accidentally consumed it, due to his strange behaviour after consuming the Felix Felicis."
+      "description": "A potion which presumably causes irrational behaviour, possibly inflicting the condition of insanity."
     },
     {
       "id": 57,
@@ -15799,7 +15799,7 @@ export default {
     {
       "id": 77,
       "name": "Herbicide Potion",
-      "description": "A potion that either kills or damages plants. Contains Flobberworm mucus, Horclump juice, and Spines of lionfish. Seen/Mentioned: Magical Drafts and Potions  by Arsenius Jiggles."
+      "description": "A potion that either kills or damages plants."
     },
     {
       "id": 78,
@@ -15939,7 +15939,7 @@ export default {
     {
       "id": 105,
       "name": "Polyjuice Potion",
-      "description": "Temporarily transforms the drinker into another person. The drinker will take on the appearance of the person whose hair, fingernails, etc., are added to the potion. Not to be used for transforming into an animal. Seen/Mentioned: In 1992 used by Harry and Ron to enter Slytherin common Room; Severus Snape thought Harry was stealing his ingredients to make a polyjuice potion; Used multiple times in 1997 and 1998."
+      "description": "Temporarily transforms the drinker into another person"
     },
     {
       "id": 106,
@@ -16104,7 +16104,7 @@ export default {
     {
       "id": 138,
       "name": "Thick golden potion",
-      "description": "Healing, curse quarantining. Was used by Professor Severus Snape in the summer of 1996 to treat the effects that the curse on the Ring Horcrux had on Albus Dumbledore."
+      "description": "Healing, curse quarantining. "
     },
     {
       "id": 139,
@@ -16170,7 +16170,6 @@ export default {
   books: [
     {
       "id": 1,
-      "img": "https://www.serebii.net/pokemongo/pokemon/001.png",
       "title": "Harry Potter and the Sorcerer's Stone",
       "releaseDay": "June 26, 1997",
       "author": "J. K. Rowling",
