@@ -12,19 +12,20 @@
 <body>
   <header class="flex-container">
     <h1 class="titulologo"><img src="imagens/logoharry.png"></h1>
+    <nav class="menu">
+      <ul class="btnMenu">
+        <a href="index.html" class="imgMenu"><img src="imagens/back.png"></a>
+        <a target="_blank" class="imgMenu"
+          href="https://www.hbomax.com/br/pt/harry-potter?countryRedirect=1&utm_id=sa%7c71700000085056423%7c58700007207970536%7cp66001139249&gclid=Cj0KCQjwxveXBhDDARIsAI0Q0x245efopt0KFfdQIZJZjZv_Fs3YZX4yn6ssLbmWykQGbE6iYGeiphgaAqfFEALw_wcB&gclsrc=aw.ds"><img
+            src="imagens/movie.png"></a>
+        <a target="_blanck" class="imgMenu" href="https://www.hogwartslegacy.com/pt-br"><img src="imagens/game.png"></a>
+      </ul>
+    </nav>
   </header>
-  <nav class="menu">
-    <ul class="btnMenu">
-      <a href="index.html" class="imgMenu"><img src="imagens/back.png"></a>
-      <a target="_blank" class="imgMenu"
-        href="https://www.hbomax.com/br/pt/harry-potter?countryRedirect=1&utm_id=sa%7c71700000085056423%7c58700007207970536%7cp66001139249&gclid=Cj0KCQjwxveXBhDDARIsAI0Q0x245efopt0KFfdQIZJZjZv_Fs3YZX4yn6ssLbmWykQGbE6iYGeiphgaAqfFEALw_wcB&gclsrc=aw.ds"><img
-          src="imagens/movie.png"></a>
-      <a target="_blanck" class="imgMenu" href="https://www.hogwartslegacy.com/pt-br"><img src="imagens/game.png"></a>
-    </ul>
-  </nav>
-  <main>
-    <div class="backSelectSpells">
-      <select class="select-spells" id="selectFiltros">
+
+  <main class="printAll" id="main-Select">
+    <div class="select-option">
+      <select class="select" id="selectFiltros">
         <option disabled selected value="">TIPOS DE FEITIÇO</option>
         <option value="Transfiguration" id="Transfiguration" class="option">TRANSFIGURATION</option>
         <option value="Hex" id="Hex" class="option">HEX</option>
@@ -33,7 +34,7 @@
         <option value="Transportation" id="Transportation" class="option">TRANSPORTATION</option>
         <option value="Conjuration" id="Conjuration" class="option">CONJURATION</option>
       </select>
-      <input type="button" id="refresh" class="refreshSpeels" value="Limpar filtros">
+      <input type="button" id="refresh" class="refresh" value="Limpar filtros">
     </div>
 
     <ul id="listSpells" class="ulListSpells">

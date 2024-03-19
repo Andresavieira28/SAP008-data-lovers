@@ -9,7 +9,7 @@ const selectSpells = document.getElementById('selectFiltros');
 const btnRefresh = document.querySelector('#refresh');
 
 function createSpells(spells){
-  return `<section class="cardSpells">
+  return `<section class="card">
   <br><strong>Nome: </strong>${spells.name}
   </br><strong>Tipo de feitiço: </strong>${spells.spell_type}
   </br><strong>Descrição: </strong>${spells.description}
@@ -33,7 +33,7 @@ function refresh(){
 })
 
 let btnTop = document.getElementById('btn-top')
-btnTop.addEventListener('click', 
+btnTop.addEventListener('click',
 function buttonTop() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;

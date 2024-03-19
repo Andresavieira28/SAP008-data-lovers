@@ -2,7 +2,7 @@ import data from "./data/harrypotter/data.js";
 const potionsPrint = document.getElementById('listPotions');
 const fullPotions = data.potions;
 function createPotions(potions){
-  return `<section class="cardPotions">
+  return `<section class="card">
   <br><strong>Nome: </strong>${potions.name}
   </br><strong>Descrição: </strong>${potions.description}
   </section>`
